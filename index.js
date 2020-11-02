@@ -104,7 +104,7 @@ const fi = (function() {
           sortedArray.push(key);
         }
       }
-
+      return sortedArray.sort();
     },
 
 
