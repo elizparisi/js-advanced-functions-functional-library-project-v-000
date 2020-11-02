@@ -97,6 +97,7 @@ const fi = (function() {
 
 
     functions: function(object) {
+      let sortedArray = [];
 
     },
 
