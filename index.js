@@ -76,15 +76,11 @@ const fi = (function() {
     },
     
     sortBy: function(array, callback) {
-      
+      return callback(array).sort();
     },
     
     flatten: function(array, element) {
-      let flattenedArray = [];
       
-      if (Array.isArray?) {
-        let value =  
-      }
     },
     
     uniq: function(array, boolean, element) {
