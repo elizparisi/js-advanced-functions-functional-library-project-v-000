@@ -99,7 +99,9 @@ const fi = (function() {
     functions: function(object) {
       let sortedArray = [];
       
-      for (let key in object)
+      for (let key in object) {
+        if 
+      }
 
     },
 
