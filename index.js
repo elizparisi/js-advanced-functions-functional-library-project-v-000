@@ -101,11 +101,10 @@ const fi = (function() {
       
       for (let key in object) {
         if (typeof object[key] === "function") {
-          sortedArray.push(key)
+          sortedArray.push(key);
         }
       }
       return sortedArray.sort()
-    },
   }
 
     },
