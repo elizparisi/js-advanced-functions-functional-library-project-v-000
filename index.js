@@ -117,7 +117,7 @@ const fi = (function() {
     //   return newArray;
     // },
     
-    uniq: function(array, sorted=false, element) {
+    uniq: function(array, sorted=false, iter=) {
       
     },
     
