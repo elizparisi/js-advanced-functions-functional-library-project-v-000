@@ -100,7 +100,7 @@ const fi = (function() {
       let sortedArray = [];
       
       for (let key in object) {
-        if (type of object[key] === 'function') {
+        if (typeof object[key] === 'function') {
           sortedArray.push(key);
         }
       }
