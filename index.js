@@ -23,7 +23,15 @@ const fi = (function() {
     reduce: function(collection, callback, acc) {
       let newCollection = collection.slice();
       
+      if (!acc) {
+        acc = newCollection[0];
+				newCollection = collection.slice(1);
+      }
       
+      for (let i = 0; i < newCollection.length; i++){
+        acc = callback(acc, newCollection[i], collection);
+      }
+      return acc;
     },
     
     find: function(collection, callback) {
