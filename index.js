@@ -96,9 +96,9 @@ const fi = (function() {
     flatten: function(array, shallow) {
       let newArray = [];
       
-      for(let element in array) {
+      for (let element in array) {
         if (shallow === true) {
-          if(Array.isArray(array[i])) {
+          if (Array.isArray(array[i])) {
               newArray = newArray.concat(array[i]);
           } 
           else {
@@ -106,7 +106,7 @@ const fi = (function() {
           }
         }
         else {
-          if(Array.isArray(array[i])) {
+          if (Array.isArray(array[i])) {
               newArray = newArray.concat(flatten(array[i]));
           } 
           else {
