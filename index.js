@@ -20,8 +20,10 @@ const fi = (function() {
       return result;
     },
 
-    reduce: function() {
-
+    reduce: function(collection, callback, acc) {
+      let newCollection = collection.slice();
+      
+      
     },
     
     find: function(collection, callback) {
