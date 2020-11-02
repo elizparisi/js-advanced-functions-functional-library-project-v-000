@@ -93,8 +93,16 @@ const fi = (function() {
       });
     },
     
-    flatten: function(array, element) {
+    flatten: function(array, shallow) {
+      let newArray = [];
       
+      if (shallow) {
+        newArray = array.flat(1);
+      } 
+      else {
+        newArray = array.flat(Infinity);
+      }
+      return newArray;
     },
     
     uniq: function(array, boolean, element) {
