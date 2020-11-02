@@ -100,7 +100,9 @@ const fi = (function() {
       let sortedArray = [];
       
       for (let key in object) {
-        if 
+        if (type of object[key] === 'function') {
+          
+        }
       }
 
     },
