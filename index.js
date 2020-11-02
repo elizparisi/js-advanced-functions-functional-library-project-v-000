@@ -94,32 +94,12 @@ const fi = (function() {
     },
     
     // flatten: function(array, shallow) {
-    //   let newArray = [];
-      
-    //   for (let element in array) {
-    //     if (shallow === true) {
-    //       if (Array.isArray(array[i])) {
-    //           newArray = newArray.concat(array[i]);
-    //       } 
-    //       else {
-    //           newArray.push(array[i]);
-    //       }
-    //     }
-    //     else {
-    //       if (Array.isArray(array[i])) {
-    //           newArray = newArray.concat(flatten(array[i]));
-    //       } 
-    //       else {
-    //           newArray.push(array[i]);
-    //       }
-    //     }
-    //   }
-    //   return newArray;
+  
     // },
     
-    uniq: function(array, sorted=false, iter=) {
-      
-    },
+    // uniq: function(array, sorted=false, iter=false) {
+  
+    // },
     
     keys: function(object) {
       return Object.keys(object);
