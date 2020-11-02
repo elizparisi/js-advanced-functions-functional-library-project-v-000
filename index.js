@@ -117,9 +117,9 @@ const fi = (function() {
     //   return newArray;
     // },
     
-    // uniq: function(array, boolean, element) {
+    uniq: function(array, boolean, element) {
       
-    // },
+    },
     
     keys: function(object) {
       return Object.keys(object);
