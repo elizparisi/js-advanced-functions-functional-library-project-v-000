@@ -76,7 +76,11 @@ const fi = (function() {
     },
     
     sortBy: function(array, callback) {
-      return callback(array).sort();
+      let newArray = [...array];
+      
+      return newArray.sort(function(a,b) {
+        return callback(a) - callback(b);
+      });
     },
     
     flatten: function(array, element) {
