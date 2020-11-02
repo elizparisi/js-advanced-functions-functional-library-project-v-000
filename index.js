@@ -80,7 +80,9 @@ const fi = (function() {
     },
     
     flatten: function(array, element) {
-      if (Array.isArray?)
+      let flattenedArray = [];
+      
+      if (Array.isArray?(element))
     },
     
     uniq: function(array, boolean, element) {
